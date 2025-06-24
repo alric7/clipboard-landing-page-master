@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Frontend Mentor | Clipboard landing page</title>
+
+</head>
+
+<body>
+  <!-- page 1 -->
+  <div class="header flex flex-col items-center p-3 md:py-10">
+
+    <div class="mt-20">
+      <div class="flex justify-center  md:flex justify-center ">
+        <img src="./images/logo.svg" alt="none">
+      </div>
+
+
+      <h1 class="text-[30px] text-center mt-5 mb-2 md:text-[35px]">A history of <br class="md:hidden">everything you
+        copy
+      </h1>
+
+      <p class="text-center md:text-[20px]">Clipboard allows you to track and organize everything you
+        copy. Instantly <br class="hidden md:block">access your clipboard on all your devices.
+      </p>
+      <div class=" flex flex-col items-center md:flex-row gap-3 mt-5 md:mt-7 md:justify-center">
+        <button type="button"
+          class="bg-green-500  w-[200px] md:w-[250px] md:h-[60px] hover:bg-green-700 text-white font-bold py-2 px-4 rounded-[30px]">Download
+          for iOS</button>
+        <button type="button"
+          class="bg-blue-500  w-[200px] md:w-[250px] md:h-[60px] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-[30px]">Download
+          for
+          Mac</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- page-2 -->
+
+  <div class="mt-30">
+    <div>
+
+      <h1 class="text-[30px] text-center mt-5 mb-2 md:text-[35px]">Keep track of your <br class="md:hidden">snippets
+      </h1>
+
+      <p class="text-center md:text-[20px] flex justify-center ">Clipboard instantly stores any item you <br
+          class="md:hidden">copy in the cloud,
+        meaning you can <br class="md:hidden"> access <br class="hidden md:block"> your snippets immediately on all <br
+          class="md:hidden"> your
+        devices. Our Mac and iOS apps will <br class="md:hidden"> help you <br class="hidden md:block"> organize
+        everything.</p>
+    </div>
+  </div>
+  <div class="md:flex items-center justify-center md:py-30">
+
+    <div class="mt-10 md:mt-15 md:w-[600px] md:relative md:h-[400px]">
+      <img class="md:w-[1000px] md:scale-100 lg:scale-130  p-5 md:absolute md:bottom-0 md:-left-40"
+        src="./images/image-computer.png" alt="No image has been shown">
+    </div>
+
+
+    <div class=" py-10 md:text-[18px] flex flex-col md:gap-15 px-4 md:w-[400px]">
+      <div>
+        <h3 class="text-[25px]">Quick Search</h3>
+        <p class="text-gray-500">Easily search your snippets by content, category, web address, application, and more.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-[25px]">iCloud Sync</h3>
+        <p class="text-gray-500">Instantly saves and syncs snippets across all your devices.</p>
+      </div>
+
+      <div>
+        <h3 class="text-[25px]">Complete History</h3>
+        <p class="text-gray-500">Retrieve any snippets from the first moment you started using the app.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- page-3  -->
+  <div>
+    <h1 class="text-[30px] text-center mt-5 mb-2 md:text-[35px]">Access Clipboard <br class="md:hidden">anywhere</h1>
+    <p class="text-center mt-5 mb-20 md:mt-2 md:mb-10">Whether you’re on the go, or at your <br class="md:hidden">
+      computer, you can access all your <br class="md:hidden"> Clipboard <br class="hidden md:block"> snippets in a few
+      simple clicks.</p>
+    <img src="./images/image-devices.png" class="mx-auto" alt="No image has been shown">
+
+  </div>
+
+  <!-- page-4 -->
+  <div>
+    <h1 class="text-[30px] text-center mt-5 mb-2 md:text-[35px] px-10 ">Supercharge your workflow</h1>
+
+    <p class="text-center px-10">We’ve got the tools to boost your productivity.</p>
+
+
+    <div class="flex mt-10 gap-15 mx-20 flex-col md:flex-row md:gap-5">
+
+      <div class="flex flex-col items-center text-center flex-1 gap-5 py-10 md:py-0">
+
+        <div>
+          <img src="./images/icon-blacklist.svg" class="h-[45px] w-[50px]" alt="No image has been shown">
+        </div>
+
+        <div>
+          <h3 class="text-[25px] ">Create blacklists</h3>
+          <p class="text-gray-500">Ensure sensitive information never makes its way to your clipboard by excluding
+            certain sources.</p>
+        </div>
+      </div>
+
+
+      <div class="flex flex-col items-center text-center flex-1 gap-5">
+        <img src="./images/icon-text.svg" class="h-[45px] w-[50px]" alt="No image has been shown">
+
+        <div>
+          <h3 class="text-[25px]">Plain text snippets</h3>
+          <p class="text-gray-500">Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+      </div>
+
+
+      <div class="flex flex-col items-center text-center flex-1 gap-5">
+        <img src="./images/icon-preview.svg" class="h-[45px] w-[50px]" alt="No image has been shown">
+
+        <div>
+          <h3 class="text-[25px]">Sneak preview</h3>
+          <p class="text-gray-500">Quick preview of all snippets on your Clipboard for easy access.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- images  -->
+  <div class="grid place-items-center gap-15 py-30 md:grid-cols-3  lg:grid-cols-5 lg:mx-20 md:mx-15">
+    <div><img src="./images/logo-google.png" alt="No image has been shown"></div>
+    <div><img src="./images/logo-ibm.png" alt="No image has been shown"></div>
+    <div><img src="./images/logo-microsoft.png" alt="No image has been shown"></div>
+    <div><img src="./images/logo-hp.png" alt="No image has been shown"></div>
+    <div><img src="./images/logo-vector-graphics.png" alt="No images has been shown"></div>
+  </div>
+
+  <!-- page-4 -->
+  <div>
+    <h1 class="text-[30px] text-center">Clipboard for iOS and <br class="md:hidden"> Mac OS</h1>
+
+    <p class="text-center mt-5 md:mt-3">Available for free on the App Store. <br class="md:hidden"> Download for Mac or
+      iOS, sync with <br class="md:hidden"> iCloud
+      and <br class="hidden md:block"> you’re ready to start adding to <br class="md:hidden"> your clipboard.</p>
+
+    <div class="flex flex-col items-center md:flex-row gap-3 mt-5 md:mt-7 md:justify-center">
+      <button type="button"
+        class="bg-green-500 w-[200px] md:w-[250px] md:h-[60px] hover:bg-green-700 text-white font-bold py-2 px-4 rounded-[30px]">Download
+        for iOS</button>
+      <button type="button"
+        class="bg-blue-500 w-[200px] md:w-[250px] md:h-[60px] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-[30px]">Download
+        for Mac</button>
+    </div>
+  </div>
+
+  <footer>
+    <div class="flex flex-col items-center mt-[100px] md:flex-row md:justify-between px-20">
+
+      <div class="md:-mr-20">
+        <img src="./images/logo.svg" class="w-[70px]" alt="No image has been shown">
+      </div>
+
+      <div class="text-center grid md:place-items-start md:grid-cols-3 p-5 gap-3 lg:mr-60 ">
+        <p>FAQs</p>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
+        <p>Press Kit</p>
+        <p>Install Guide</p>
+      </div>
+
+      <div class="flex gap-5 ">
+        <img src="./images/icon-facebook.svg" alt="No image has been shown">
+        <img src="./images/icon-twitter.svg" alt="No image has been shown">
+        <img src="./images/icon-instagram.svg" alt="No image has been shown">
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
+</html>
